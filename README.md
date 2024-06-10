@@ -49,7 +49,7 @@ Original Context: 32x32 sized matrix multiplication (32 bit floating point) acce
     - [https://groups.google.com/g/chipyard/c/OIbByFj6cZ0/m/Mo2PUuUOAwAJ](https://groups.google.com/g/chipyard/c/OIbByFj6cZ0/m/Mo2PUuUOAwAJ)
         - Usually get this error `“$fatal; // @[SimpleHellaCacheIF.scala 135:9]”` on line 208782 on the top.v
         - Likely valid request to inaccessible memory
-        - Possibly also due to wrong size of mem.req, check the link under [Somehow writing ZEROS to adjacent columns for a matrix? Weird interaction when writing 32bit data to L1 cache. Memory alignment issues.](https://www.notion.so/Somehow-writing-ZEROS-to-adjacent-columns-for-a-matrix-Weird-interaction-when-writing-32bit-data-to-f7a1b11e299f4da2be9bfbcd62b0a513?pvs=21)
+        - Possibly also due to wrong size of mem.req, check the link under the section titled "*Somehow writing ZEROS...*"
 - Getting waveforms (.vcd files)
     - https://github.com/chipsalliance/rocket-chip/issues/2955 Check this Github issue on chipyard for more info
     - **NOTE:** the VCD file (waveform file) can be very big in size (like 7 Gigs +  or even 12-ish depending on complexity of C test file)
